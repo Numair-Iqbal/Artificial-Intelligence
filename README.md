@@ -126,8 +126,8 @@ VS Code for development environment
 
 ================================================================================
 
-Submission Date: Sunday
-Status: Complete
+Submission Date: Sunday <br>
+Status: Complete <br>
 Thank You!
 
 ================================================================================
