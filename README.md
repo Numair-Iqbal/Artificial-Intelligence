@@ -105,8 +105,8 @@ Subject: Artificial Intelligence (AI)
 
 SUBMISSION LINKS:
 
-GitHub Repository: https://github.com/NumairIqbal/Artificial-Intelligence
-Project Video: Google Drive (File: BSCSE-23-15.mp4)
+GitHub Repository: https://github.com/Numair-Iqbal/Artificial-Intelligence.git
+Project Video: Google Drive (File: BSCSE-23-15,BSCSE-23-34.mp4)
 PPT: Included in /ppt folder
 Report: Included in /report folder
 
