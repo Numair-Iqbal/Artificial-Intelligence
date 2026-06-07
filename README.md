@@ -96,7 +96,7 @@ Artificial-Intelligence/
 
 DEVELOPED BY:
 
-Numair Iqbal (Roll Number: BSCSE-23-15)
+Numair Iqbal (Roll Number: BSCSE-23-15) <br>
 Nasir Amin Khan (Roll Number: BSCSE-23-34)
 
 Subject: Artificial Intelligence (AI)
