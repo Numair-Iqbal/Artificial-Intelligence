@@ -17,10 +17,10 @@ Built with Python, Flask, and Groq AI — featuring a professional ChatGPT-style
 
 ## 👥 Group Members
 
-| Name | Role |
+| Name | 
 |------|------|
-| **Numair Iqbal** | Full Stack Development, AI Integration |
-| **Nasir Amin** | Frontend Design, Testing & Documentation |
+ **Numair Iqbal** 
+ **Nasir Amin**  
 
 **University:** University of Layyah  
 **Department:** Computer Science  
