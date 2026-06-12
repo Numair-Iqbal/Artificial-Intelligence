@@ -17,9 +17,9 @@ Built with Python, Flask, and Groq AI — featuring a professional ChatGPT-style
 
 ## 👥 Group Members
 
-| Name | 
+ Name 
 |------|------|
- **Numair Iqbal** 
+ **Numair Iqbal** <br>
  **Nasir Amin**  
 
 **University:** University of Layyah  
