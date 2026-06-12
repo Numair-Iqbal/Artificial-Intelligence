@@ -17,8 +17,7 @@ Built with Python, Flask, and Groq AI — featuring a professional ChatGPT-style
 
 ## 👥 Group Members
 
- Name 
-|------|------|
+ **Name**<br>
  **Numair Iqbal** <br>
  **Nasir Amin**  
 
