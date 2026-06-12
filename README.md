@@ -1,133 +1,226 @@
-# Subject: Artificial Intelligence (AI)
+# 🏥 Medical AI Assistant — MedBot
 
-# Medical AI Assistant Project
+<div align="center">
 
-================================================================================
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
+![Flask](https://img.shields.io/badge/Flask-3.1-black?style=for-the-badge&logo=flask)
+![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3_70B-orange?style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML5-CSS3-red?style=for-the-badge&logo=html5)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
 
-PROJECT DESCRIPTION:
+**An AI-powered Medical Chatbot that answers health and medical questions only.**  
+Built with Python, Flask, and Groq AI — featuring a professional ChatGPT-style interface.
 
-This project is an AI-based Medical Chatbot developed using Python and Flask. It helps users by answering basic medical-related questions using the Groq AI API (LLaMA 3.3 70B model). The chatbot provides general health information, symptom guidance, and emergency detection. It is designed for academic submission purposes only.
+</div>
 
-================================================================================
+---
 
-DISCLAIMER:
+## 👥 Group Members
 
-This AI assistant is for informational purposes only. For medical emergencies, call 1122. Always consult a qualified doctor.
+| Name | Role |
+|------|------|
+| **Numair Iqbal** | Full Stack Development, AI Integration |
+| **Nasir Amin** | Frontend Design, Testing & Documentation |
 
-================================================================================
+**University:** University of Layyah  
+**Department:** Computer Science  
+**Semester:** 6th Semester — Session 2025-2026  
+**Subject:** Artificial Intelligence  
 
-FEATURES:
+---
 
-1. AI Medical Chatbot - Answers health, disease, and symptom-related questions
-2. Emergency Detection - Detects keywords like "heart attack" and suggests calling 1122
-3. User-friendly Interface - Clean dark theme UI with message bubbles
-4. API Integration - Powered by Groq LLaMA 3.3 70B model
-5. Real-time Responses - Fast and accurate AI replies
-6. Flask Backend - Lightweight Python web framework
-7. JSON Chat History - Saves all conversations locally
-8. Multiple Chats - Create, switch, and delete multiple chat sessions
-9. Search Chats - Search through your chat history
-10. Copy Messages - Copy bot responses with one click
-11. Dark Theme - Professional dark mode UI
-12. Responsive Design - Works on all devices
+## 📌 Project Overview
 
-================================================================================
+**MedBot** is a specialized Medical AI Assistant that uses the **Groq API** powered by **LLaMA 3.3 70B** — one of the most powerful Large Language Models available. The chatbot is strictly limited to medical and health-related topics only. Any non-medical query is automatically blocked with a polite message.
 
-TECHNOLOGIES USED:
+> **Teacher Requirement:** Build an AI project that serves a single specific purpose.  
+> **Our Solution:** A Medical-only AI Chatbot — MedBot.
 
-Python, Flask, Flask-CORS, HTML5, CSS3, JavaScript, Groq API (LLaMA 3.3 70B), JSON
+---
 
-================================================================================
+## ✨ Features
 
-PROJECT FILES:
+| Feature | Description |
+|---------|-------------|
+| 🏥 **Medical Only** | Strictly answers health and medical questions — all other topics blocked |
+| 💬 **ChatGPT-Style UI** | Professional dark theme with sidebar, chat history, and action buttons |
+| 💾 **Permanent History** | All conversations saved in JSON file — preserved after laptop restart |
+| 🌐 **Multi-Language** | Responds in English, Roman Urdu, or Urdu — matches user's language |
+| 📱 **Mobile Access** | Accessible from any mobile device on the same WiFi network |
+| 🔄 **Retry Logic** | Automatically retries 3 times on connection error |
+| ⏰ **Timestamps** | Every message shows time sent |
+| 📋 **Copy & Like** | Copy, like, dislike, and regenerate buttons on every response |
+| 🔍 **Search Chats** | Search through all previous conversations |
+| 🚨 **Emergency Alert** | Every response reminds users to call 1122 for emergencies in Pakistan |
 
-app.py - Flask backend with Groq API integration
-index.html - Main chat interface (UI structure)
-style.css - Styling and dark theme design
-script.js - Frontend chat logic and API calls
-chat_history.json - Stores conversation history locally
+---
 
-================================================================================
+## 🛠️ Technologies Used
 
-HOW TO RUN THE PROJECT:
+| Technology | Version | Purpose |
+|-----------|---------|---------|
+| Python | 3.13 | Backend programming language |
+| Flask | 3.1.3 | Web server framework |
+| Flask-CORS | 5.0.1 | Cross-Origin Resource Sharing |
+| Groq API | Latest | AI intelligence engine |
+| LLaMA 3.3 70B | Latest | Large Language Model |
+| HTML5 | Latest | Frontend structure |
+| CSS3 | Latest | Styling and dark theme |
+| JavaScript | ES6 | Frontend interactivity |
+| JSON | — | Permanent chat history storage |
 
-Step 1: Open VS Code -> Terminal -> New Terminal
-Step 2: Type "python app.py" and press Enter
-Step 3: Open browser and go to http://127.0.0.1:5000
-Step 4: Start asking medical questions
+---
 
-================================================================================
+## 📁 Project Structure
 
-SAMPLE QUESTIONS TO ASK:
+```
+AI_Chatbot/
+├── app.py                  # Flask backend server + Groq AI integration
+├── index.html              # Frontend HTML structure
+├── style.css               # Professional dark theme CSS
+├── script.js               # Frontend JavaScript + API calls
+├── chat_history.json       # Permanent chat history storage
+└── README.md               # Project documentation
+```
 
-Medical (English): "What are symptoms of fever?"
-Medical (Urdu): "Bukhar ki alamaat kya hain?"
-Emergency: "I am having chest pain"
-Non-Medical: "What is AI?" (will be blocked)
+---
 
-================================================================================
+## ⚙️ System Architecture
 
-TEST CASES:
+```
+User (Browser)
+     ↓
+index.html + style.css + script.js
+     ↓  (HTTP POST)
+Flask Backend — app.py (Port 5000)
+     ↓  (API Call)
+Groq API — LLaMA 3.3 70B
+     ↓  (Response)
+Flask Backend
+     ↓
+Browser — Chat Bubble Displayed
+```
 
-Medical question -> Accurate medical answer + disclaimer
-Emergency keywords -> First line: "Call 1122"
-Non-medical question -> "I only answer medical questions"
-New chat creation -> New chat opens with welcome screen
-Chat deletion -> Chat removed from sidebar
-Language consistency -> Urdu to Urdu, English to English
+---
 
-================================================================================
+## 🚀 How to Run
 
-PROJECT STRUCTURE:
+### Step 1 — Install Required Libraries
 
-Artificial-Intelligence/
-├── code/
-│   ├── app.py
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── ppt/
-│   └── Medical_AI_Assistant_Presentation.pptx
-├── report/
-│   └── MedBot_Project_Report_FINAL.docx
-└── README.md
+```bash
+pip install flask flask-cors groq
+```
 
-================================================================================
+### Step 2 — Add Your Groq API Key
 
-DEVELOPED BY:
+Open `app.py` and replace the API key:
 
-Numair Iqbal (Roll Number: BSCSE-23-15) <br>
-Nasir Amin Khan (Roll Number: BSCSE-23-34)
+```python
+client = Groq(api_key="YOUR_GROQ_API_KEY_HERE")
+```
 
-Subject: Artificial Intelligence (AI)
+Get your free API key from: [console.groq.com](https://console.groq.com)
 
-================================================================================
+### Step 3 — Run the Server
 
-SUBMISSION LINKS:
+```bash
+py -3.13 app.py
+```
 
-GitHub Repository: https://github.com/Numair-Iqbal/Artificial-Intelligence.git <br>
-Project Video: Google Drive (File: BSCSE-23-15,BSCSE-23-34.mp4) <br>
-PPT: Included in /ppt folder <br>
-Report: Included in /report folder
+### Step 4 — Open in Browser
 
-================================================================================
+Open VS Code → Click **"Go Live"** on `index.html`
 
-IMPORTANT NOTE:
+Or open your browser and go to:
 
-This project is developed for academic submission purposes only. Always consult a qualified doctor for serious medical conditions. For emergencies in Pakistan, call 1122.
+```
+http://127.0.0.1:5500
+```
 
-================================================================================
+### Step 5 — Access on Mobile (Optional)
 
-ACKNOWLEDGMENTS:
+Make sure your PC and mobile are on the same WiFi.  
+Find your PC's IP address:
 
-Groq for providing LLaMA 3.3 70B API
-Flask for lightweight backend framework
-VS Code for development environment
+```bash
+ipconfig
+```
 
-================================================================================
+Then open on mobile browser:
 
-Submission Date: Sunday <br>
-Status: Complete <br>
-Thank You!
+```
+YOUR_IP_ADDRESS:5500
+```
 
-================================================================================
+---
+
+## 🧪 Testing Results
+
+| Test Query | Expected Result | Status |
+|-----------|----------------|--------|
+| What are symptoms of fever? | Detailed medical answer | ✅ PASSED |
+| What is diabetes? | Medical explanation | ✅ PASSED |
+| How to treat a headache? | Treatment advice | ✅ PASSED |
+| Blood pressure symptoms? | Medical answer | ✅ PASSED |
+| What is Artificial Intelligence? | Blocked — not medical | ✅ BLOCKED |
+| Pakistan ka capital kya hai? | Blocked — not medical | ✅ BLOCKED |
+| Mobile browser access | Chatbot accessible | ✅ PASSED |
+
+---
+
+## ⚠️ Challenges & Solutions
+
+| Challenge | Solution |
+|-----------|----------|
+| CORS error — API blocked from browser | Built Flask backend to handle all API requests |
+| Gemini API rate limit exceeded | Switched to Groq API — no strict daily limits |
+| Python 3.14 corruption — tempfile error | Reinstalled Python 3.13 with correct PATH |
+| Mobile access not working | Configured Flask with `host='0.0.0.0'` |
+| Empty chats appearing in sidebar | Added filter — only chats with messages shown |
+
+---
+
+## 📸 Screenshots
+
+> Live Demo available — run the project locally to see the full interface.
+
+**Key UI Features:**
+- Professional dark sidebar with chat history
+- Medical-only responses with emergency reminders
+- Welcome screen with quick question buttons
+- Typing animation — "MedBot is thinking..."
+
+---
+
+## 🔮 Future Enhancements
+
+- [ ] Voice input support
+- [ ] User login and registration system
+- [ ] Cloud deployment (Render / Heroku)
+- [ ] Database integration (SQLite / MongoDB)
+- [ ] Appointment booking feature
+- [ ] Multi-doctor specialization support
+
+---
+
+## 📄 License
+
+This project was developed for academic purposes at the **University of Layyah** as part of the **Artificial Intelligence** course.
+
+---
+
+## 🙏 Acknowledgements
+
+- [Groq](https://groq.com) — For providing fast and free AI API
+- [Meta AI](https://ai.meta.com) — For LLaMA 3.3 70B model
+- [Flask](https://flask.palletsprojects.com) — For the lightweight web framework
+- University of Layyah — Computer Science Department
+
+---
+
+<div align="center">
+
+**Made with ❤️ by Numair Iqbal & Nasir Amin**  
+**University of Layyah — 6th Semester — 2025-2026**
+
+</div>
