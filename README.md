@@ -179,9 +179,9 @@ YOUR_IP_ADDRESS:5500
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-> Live Demo available — run the project locally to see the full interface.
+![Medical AI Assistant](screenshot/chatbot.jpeg)
 
 **Key UI Features:**
 - Professional dark sidebar with chat history
