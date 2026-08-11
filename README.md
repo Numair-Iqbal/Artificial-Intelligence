@@ -195,9 +195,29 @@ YOUR_IP_ADDRESS:5500
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/Format-MP4-red?style=flat-square&logo=videoLAN&logoColor=white"/>
+<img src="https://img.shields.io/badge/Duration-1:45_min-blue?style=flat-square&logo=clockify&logoColor=white"/>
+<img src="https://img.shields.io/badge/Language-English_%7C_Urdu-green?style=flat-square&logo=googletranslate&logoColor=white"/>
+
+<br/>
+<br/>
+
 https://github.com/user-attachments/assets/22af52a7-d1ce-40e5-b671-c900331b284f
 
-**Click above to watch MedBot in action** - see the medical query handling, multi-language response, and non-medical query blocking in real time.
+<br/>
+
+> 💡 **Watch MedBot in action** — see real-time medical query handling, multi-language responses, and automatic blocking of non-medical questions.
+
+</div>
+
+<div align="center">
+
+| ✅ What You'll See |
+|:---|
+| 🩺 Live medical Q&A with instant AI responses |
+| 🌐 Seamless switching between English and Urdu |
+| 🚫 Non-medical queries automatically blocked |
+| 📱 Clean, ChatGPT-style responsive interface |
 
 </div>
 
