@@ -191,6 +191,17 @@ YOUR_IP_ADDRESS:5500
 
 ---
 
+## 🎥 Demo Video
+ 
+<div align="center">
+<a href="https://github.com/Numair-Iqbal/Artificial-Intelligence/raw/main/medbot-demo.mp4">
+  <img src="https://img.shields.io/badge/Watch_Demo_Video-medbot--demo.mp4-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo Video"/>
+</a>
+**Click above to watch MedBot in action** — see the medical query handling, multi-language response, and non-medical query blocking in real time.
+ 
+</div>
+---
+
 ## 🔮 Future Enhancements
 
 - [ ] Voice input support
